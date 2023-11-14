@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-  content: ["./dist/*.{html,js}"],
+  content: ["./frontend/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
